@@ -6,3 +6,9 @@ class UserProfile(models.Model):
 class Country(models.Model):
     name = models.CharField(max_lenth=32)
     code = models.SmallIntger()
+
+
+class School(models.Model):
+    name = models.CharField(max_length=32)
+
+
