@@ -12,3 +12,5 @@ class School(models.Model):
     name = models.CharField(max_length=32)
     addr = models.CharField(max_lenght=32)
 
+class Dev(models.Model)
+    dev = 
